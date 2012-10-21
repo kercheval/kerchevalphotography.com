@@ -2,6 +2,7 @@
 <html>
 <head>
 
+   <title>{{ page.title }}</title>
    <meta charset="utf-8">
    <meta http-equiv="X-UA-Compatible" content="chrome=1">
    <link rel="stylesheet" href="http://kercheval.org/static/stylesheets/styles.css">
@@ -21,9 +22,11 @@
 </head>
 <body>
 <div id="header">
+   {% if page.github %}
    <nav>
-      <li class="fork"><a href="https://github.com/kercheval/kerchevalphotography.com">View On GitHub</a></li>
+      <li class="fork"><a href="{{ page.github }}">View On GitHub</a></li>
    </nav>
+   {% endif %}
 </div><!-- end header -->
 
 <div class="wrapper">
