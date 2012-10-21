@@ -2,7 +2,7 @@
 layout: default
 ---
 
-# kerchevalphotography.com
+# static.kerchevalphotography.com
 
 ***
 
